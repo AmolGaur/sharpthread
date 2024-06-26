@@ -81,6 +81,23 @@
     cursor: pointer;
 }
 
+.main-header .header-content .right .cart-icon {
+    position: relative;
+}
+
+.main-header .header-content .right .cart-icon span {
+    min-width: 20px;
+    text-align: center;
+    background-color: #8e2de2;
+    padding: 2.5px;
+    position: relative;
+    top: -15px;
+    right: 5px;
+    font-size: 10px;
+    line-height: 1;
+    border-radius: 15px;
+}
+
 @media (min-width: 768px) {
     .main-header .header-content .right svg {
         font-size: 24px;

@@ -30,6 +30,7 @@ const Header = () => {
                 <ul className="left">
                     <li>Home</li>
                     <li>About</li>
+                    <li>Categories</li>
                 </ul>
                 <div className="center">SHARP THREAD</div>
                 <div className="right">
@@ -37,6 +38,7 @@ const Header = () => {
                     <AiOutlineHeart />
                     <span className="cart-icon" >
                         <CgShoppingCart />
+                        <span>5</span>
                     </span>
                 </div>
             </div>
